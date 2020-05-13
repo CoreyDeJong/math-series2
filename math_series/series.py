@@ -19,7 +19,7 @@ def lucas(n):
 
 
 def sum_series(n, term1=0, term2=1):
-
+"""Determins if there is or is not an input, will run either the fibonacci function or the lucas function"""
 
     if term1 == 0 and term2 ==1:
         return fibonacci(n)
