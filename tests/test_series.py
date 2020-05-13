@@ -43,17 +43,39 @@ def test_lucas4():
     assert actual == expected
 
 ## Sum_series test ??????
-def test_sumX():
-    actual = sum_series(2)
-    expected = 2
-    assert actual == expected
-
-def test_sum1():
-    actual = sum_series(1)
+def test_sumFib1():
+    actual = sum_series(1,0,1)
     expected = 1
     assert actual == expected
 
-def test_sum2():
-    actual = sum_series(5, 2, 1)
+def test_sumFib5():
+    actual = sum_series(5,0,1)
+    expected = 5
+    assert actual == expected
+
+def test_sumFib5x():
+    actual = sum_series(5)
+    expected = 5
+    assert actual == expected
+
+def test_sumLucas1():
+    actual = sum_series(1,2,1)
     expected = 1
     assert actual == expected
+
+def test_sumLucas5():
+    actual = sum_series(5,2,1)
+    expected = 7
+    assert actual == expected
+
+
+
+# def test_sum1():
+#     actual = sum_series(1)
+#     expected = 1
+#     assert actual == expected
+
+# def test_sum2():
+#     actual = sum_series(5, 2, 1)
+#     expected = 1
+#     assert actual == expected
