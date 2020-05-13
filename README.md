@@ -1,0 +1,1 @@
+https://github.com/CoreyDeJong/math-series2/pull/2
