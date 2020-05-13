@@ -18,11 +18,15 @@ def lucas(n):
     return(next)
 
 
-def sum_series(n, *args):
-    if args == '':
-        fibonacci(n)
-    if args == '2,1':
-        lucas(n)
+def sum_series(n, *args1):
+        # return(n, args1)
+    if n==1 and args1 == (2, 1):
+        # return("Im happy")
+        return lucas(n)
+      
+    if args1 == '':
+        return fibonacci(n)
+        
 
 
 

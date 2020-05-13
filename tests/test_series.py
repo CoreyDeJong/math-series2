@@ -1,6 +1,7 @@
 
 from math_series.series import fibonacci
 from math_series.series import lucas
+from math_series.series import sum_series
 
 
 ## Fibonacci Tests
@@ -42,3 +43,17 @@ def test_lucas4():
     assert actual == expected
 
 ## Sum_series test ??????
+def test_sumX():
+    actual = sum_series(2)
+    expected = 2
+    assert actual == expected
+
+def test_sum1():
+    actual = sum_series(1)
+    expected = 1
+    assert actual == expected
+
+def test_sum2():
+    actual = sum_series(5, 2, 1)
+    expected = 1
+    assert actual == expected
