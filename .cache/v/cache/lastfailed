@@ -1,1 +1,10 @@
-{}
+{
+  "tests/test_series.py::test_0": true, 
+  "tests/test_series.py::test_2": true, 
+  "tests/test_series.py::test_3": true, 
+  "tests/test_series.py::test_4": true, 
+  "tests/test_series.py::test_lucas2": true, 
+  "tests/test_series.py::test_sum1": true, 
+  "tests/test_series.py::test_sum2": true, 
+  "tests/test_series.py::test_sumX": true
+}
